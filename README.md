@@ -68,4 +68,4 @@ The rules are checked with **perft**: counting every position reachable in N mov
 
 ## History
 
-This picks up the chess AI I started in [AI-project](https://github.com/Afaguayo/AI-project), a pygame board with a minimax AI. That version never ran for anyone else, because its piece images weren't in the repo, and it didn't handle check or checkmate. This one is complete.
+This picks up the chess AI I started in [AI-project](https://github.com/Afaguayo/AI-project), a pygame board with a depth-2 minimax AI. That version ended the game when a king was captured, rather than on checkmate, and had no castling, en passant or promotion. This one plays by the full rules.
