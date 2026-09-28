@@ -1,0 +1,1 @@
+pygame>=2.1  # the game window; play.py --text works without it
